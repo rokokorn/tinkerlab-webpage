@@ -1,0 +1,69 @@
+baseURL = "https://tinkerlab.io"
+title = "Tinkerlab"
+author = "rok"
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+theme = "tella"
+enableRobotsTXT = true
+
+# Please enable this feature if the site is available in Japanese, Chinese or Korean.
+#hasCJKLanguage = true
+
+# If you're using Google Analytics, you can enable this feature.
+#googleAnalytics = "UA-12345678-1"
+
+# Disqus Comment System
+#disqusShortname = ""
+
+[params]
+
+  [params.logo]
+    main = "img/Tinkerlab logo.png"
+    alt = "Tinkerlab Logo"
+
+  [params.site]
+    name = "Tinkerlab"
+
+  [params.icon]
+    #If you want to use FontAwesome, set this parameter to true.
+    fa5 = true
+
+  [params.homepage_meta_tags]
+    meta_description = "Tinkerlab webpage"
+    meta_og_title = "Tinkerlab"
+    meta_og_type = "website"
+    meta_og_url = "https://tinkerlab.io"
+    meta_og_image = "img/tinkerlab logo.png"
+    meta_og_description = "Tinkerlab company webpage"
+    meta_twitter_card = "summary_large_image"
+    meta_twitter_site = "@ROopinion"
+    meta_twitter_creator = "@ROopinion"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+  # Footer Menu
+  [[menu.footer]]
+    name = "Home"
+    url = "/"
+      weight = 1
+
+  [[menu.footer]]
+    name = "Github"
+    url = "https://github.com/rokokorn/tinkerlab-webpage"
+      weight = 2
+
+[build]
+  writeStats = true
