@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "git submodule update --remote --merge && hugo -t tella --gc --minify"
+command = "git submodule update --remote --merge && hugo -t tella-ro --gc --minify"
 
 [context.production.environment]
 HUGO_VERSION = "0.89.4"
