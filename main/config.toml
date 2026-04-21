@@ -1,6 +1,6 @@
 baseURL = "https://tinkerlab.io"
 title = "Tinkerlab"
-author = "rok"
+author = "rokokorn"
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
@@ -57,7 +57,7 @@ enableRobotsTXT = true
   # Footer Menu
   [[menu.footer]]
     name = "Home"
-    url = "/"
+    url = "/about"
       weight = 1
 
   [[menu.footer]]
