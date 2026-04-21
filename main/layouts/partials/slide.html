@@ -1,0 +1,25 @@
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        {{ range .Site.Data.slide }}
+        <div class="swiper-slide">
+            <img src="{{ .image | relURL }}" alt="{{ .title }}">
+            <div class="absolute inset-0 bg-slate-900/60"></div>
+            <div class="s-fade-txt w-full px-6 text-white">
+                <div class="mx-auto max-w-4xl text-center">
+                    {{ with .kicker }}
+                    <p class="mb-4 text-sm uppercase tracking-[0.3em] text-white/70">{{ . }}</p>
+                    {{ end }}
+                    <h1 class="text-4xl font-semibold md:text-5xl">{{ .title }}</h1>
+                    {{ with .description }}
+                    <p class="mx-auto mt-5 max-w-2xl text-base leading-7 text-white/85 md:text-xl">{{ . }}</p>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    {{ if gt (len .Site.Data.slide) 1 }}
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    {{ end }}
+</div>

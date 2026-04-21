@@ -1,0 +1,20 @@
+[
+  {
+    "kicker": "Core Products",
+    "title": "Data Science & Machine Learning",
+    "description": "Production-focused ML systems for forecasting, optimization, anomaly detection, and decision support.",
+    "image": "img/slide/data-science-machine-learning.svg"
+  },
+  {
+    "kicker": "Core Products",
+    "title": "Agentic Models & LLMs",
+    "description": "AI assistants and agent workflows for document understanding, automation, and faster access to knowledge.",
+    "image": "img/slide/agentic-models-llms.svg"
+  },
+  {
+    "kicker": "Core Products",
+    "title": "Machine Vision & Deep Learning",
+    "description": "Visual inspection and perception systems for manufacturing, quality control, and real-world automation.",
+    "image": "img/slide/machine-vision-deep-learning.svg"
+  }
+]
