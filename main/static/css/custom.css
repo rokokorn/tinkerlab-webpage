@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --tl-brand-cyan: #26b5c8;
+  --tl-brand-cyan-dark: #1596a9;
+  --tl-brand-cyan-soft: #7ddde7;
+  --tl-brand-graphite: #2f3136;
+}
+
+html,
+body,
+button,
+input,
+textarea,
+select {
+  font-family: "Poppins", "Noto Sans", "Segoe UI", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.nav-link,
+.menu-link,
+.brand,
+.btn,
+button {
+  letter-spacing: 0.01em;
+}

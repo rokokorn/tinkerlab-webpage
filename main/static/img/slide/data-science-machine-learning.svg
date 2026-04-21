@@ -1,41 +1,91 @@
 <svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1600" height="900" fill="#0B132B"/>
-  <rect width="1600" height="900" fill="url(#bg)" fill-opacity="0.92"/>
-  <circle cx="1310" cy="180" r="240" fill="#5BC0BE" fill-opacity="0.16"/>
-  <circle cx="280" cy="720" r="300" fill="#3A86FF" fill-opacity="0.18"/>
-  <circle cx="840" cy="420" r="260" fill="#9AD1D4" fill-opacity="0.1"/>
-  <g opacity="0.45" stroke="#D9F0FF" stroke-width="2">
-    <path d="M240 610L430 500L620 550L810 420L1000 470L1190 330L1380 410"/>
-    <path d="M240 670L430 590L620 620L810 520L1000 560L1190 430L1380 500" opacity="0.45"/>
-  </g>
-  <g fill="#E0FBFC" fill-opacity="0.85">
-    <circle cx="240" cy="610" r="8"/>
-    <circle cx="430" cy="500" r="8"/>
-    <circle cx="620" cy="550" r="8"/>
-    <circle cx="810" cy="420" r="8"/>
-    <circle cx="1000" cy="470" r="8"/>
-    <circle cx="1190" cy="330" r="8"/>
-    <circle cx="1380" cy="410" r="8"/>
-  </g>
-  <g opacity="0.12" stroke="#FFFFFF">
+  <rect width="1600" height="900" fill="#0B1020"/>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1260" cy="180" r="320" fill="url(#glowA)"/>
+  <circle cx="320" cy="760" r="280" fill="url(#glowB)"/>
+
+  <g opacity="0.14" stroke="#E2E8F0">
     <path d="M120 140H1480"/>
-    <path d="M120 260H1480"/>
-    <path d="M120 380H1480"/>
-    <path d="M120 500H1480"/>
-    <path d="M120 620H1480"/>
-    <path d="M120 740H1480"/>
-    <path d="M200 80V820"/>
-    <path d="M440 80V820"/>
-    <path d="M680 80V820"/>
-    <path d="M920 80V820"/>
-    <path d="M1160 80V820"/>
-    <path d="M1400 80V820"/>
+    <path d="M120 250H1480"/>
+    <path d="M120 360H1480"/>
+    <path d="M120 470H1480"/>
+    <path d="M120 580H1480"/>
+    <path d="M120 690H1480"/>
+    <path d="M120 800H1480"/>
+    <path d="M190 90V840"/>
+    <path d="M390 90V840"/>
+    <path d="M590 90V840"/>
+    <path d="M790 90V840"/>
+    <path d="M990 90V840"/>
+    <path d="M1190 90V840"/>
+    <path d="M1390 90V840"/>
   </g>
+
+  <rect x="150" y="120" width="1300" height="660" rx="24" fill="#0F172A" fill-opacity="0.56" stroke="#CBD5E1" stroke-opacity="0.18"/>
+  <rect x="190" y="170" width="760" height="560" rx="20" fill="#111827" fill-opacity="0.74" stroke="#E2E8F0" stroke-opacity="0.2"/>
+  <rect x="990" y="170" width="420" height="180" rx="18" fill="#111827" fill-opacity="0.74" stroke="#E2E8F0" stroke-opacity="0.2"/>
+  <rect x="990" y="380" width="420" height="160" rx="18" fill="#111827" fill-opacity="0.74" stroke="#E2E8F0" stroke-opacity="0.2"/>
+  <rect x="990" y="570" width="420" height="160" rx="18" fill="#111827" fill-opacity="0.74" stroke="#E2E8F0" stroke-opacity="0.2"/>
+
+  <g opacity="0.9">
+    <path d="M230 600L320 560L410 580L500 500L590 460L680 420L770 350L860 300L910 280" stroke="#22D3EE" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M230 655L320 640L410 620L500 640L590 610L680 590L770 560L860 510L910 490" stroke="#26B5C8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+    <path d="M230 700L320 690L410 710L500 700L590 685L680 670L770 650L860 640L910 630" stroke="#7DDDE7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+  </g>
+
+  <g fill="#E2E8F0">
+    <circle cx="320" cy="560" r="7"/>
+    <circle cx="500" cy="500" r="7"/>
+    <circle cx="680" cy="420" r="7"/>
+    <circle cx="860" cy="300" r="7"/>
+  </g>
+
+  <g>
+    <rect x="1020" y="205" width="120" height="14" rx="7" fill="#1F2937"/>
+    <rect x="1020" y="232" width="260" height="10" rx="5" fill="#334155"/>
+    <rect x="1020" y="255" width="220" height="10" rx="5" fill="#334155"/>
+    <rect x="1020" y="278" width="180" height="10" rx="5" fill="#334155"/>
+    <rect x="1020" y="305" width="360" height="20" rx="10" fill="#1E293B"/>
+    <rect x="1020" y="305" width="250" height="20" rx="10" fill="url(#barA)"/>
+
+    <rect x="1020" y="415" width="180" height="12" rx="6" fill="#1F2937"/>
+    <rect x="1020" y="442" width="340" height="14" rx="7" fill="#1E293B"/>
+    <rect x="1020" y="442" width="295" height="14" rx="7" fill="url(#barB)"/>
+    <rect x="1020" y="468" width="300" height="10" rx="5" fill="#334155"/>
+    <rect x="1020" y="490" width="250" height="10" rx="5" fill="#334155"/>
+
+    <rect x="1020" y="605" width="160" height="12" rx="6" fill="#1F2937"/>
+    <rect x="1020" y="632" width="350" height="16" rx="8" fill="#1E293B"/>
+    <rect x="1020" y="632" width="300" height="16" rx="8" fill="url(#barC)"/>
+    <rect x="1020" y="660" width="260" height="10" rx="5" fill="#334155"/>
+    <rect x="1020" y="682" width="210" height="10" rx="5" fill="#334155"/>
+  </g>
+
   <defs>
-    <linearGradient id="bg" x1="132" y1="96" x2="1474" y2="822" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#061826"/>
-      <stop offset="0.5" stop-color="#12355B"/>
-      <stop offset="1" stop-color="#1D4E89"/>
+    <linearGradient id="bg" x1="150" y1="100" x2="1430" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#121820"/>
+      <stop offset="0.48" stop-color="#1A3648"/>
+      <stop offset="1" stop-color="#1596A9"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1260 180) rotate(90) scale(320)">
+      <stop stop-color="#26B5C8" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#26B5C8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(320 760) rotate(90) scale(280)">
+      <stop stop-color="#1596A9" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#1596A9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="barA" x1="1020" y1="315" x2="1270" y2="315" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#26B5C8"/>
+      <stop offset="1" stop-color="#1596A9"/>
+    </linearGradient>
+    <linearGradient id="barB" x1="1020" y1="449" x2="1315" y2="449" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34C6D8"/>
+      <stop offset="1" stop-color="#26B5C8"/>
+    </linearGradient>
+    <linearGradient id="barC" x1="1020" y1="640" x2="1320" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7DDDE7"/>
+      <stop offset="1" stop-color="#34C6D8"/>
     </linearGradient>
   </defs>
 </svg>
